@@ -5,8 +5,8 @@ import "buffer";
 import './index.css'
 
 import { Amplify } from 'aws-amplify'
-import config from './aws-exports'
-Amplify.configure(config)
+import awsmobile from './aws-exports'
+Amplify.configure(awsmobile)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
